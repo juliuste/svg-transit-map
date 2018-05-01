@@ -1,7 +1,7 @@
 {
 	"name": "svg-transit-map",
 	"description": "Draw an SVG transit map for a given transport network graph with position information.",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"keywords": [
 		"public transport",
 		"public",
@@ -25,6 +25,9 @@
 		"index.js",
 		"lib"
 	],
+	"bin": {
+		"svg-transit-map": "./cli.js"
+	},
 	"dependencies": {
 		"d3-shape": "^1.2.0",
 		"get-stdin": "^6.0.0",
