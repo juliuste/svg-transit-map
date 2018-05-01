@@ -1,0 +1,44 @@
+{
+	"name": "svg-transit-map",
+	"description": "Draw an SVG transit map for a given transport network graph with position information.",
+	"version": "0.0.0",
+	"keywords": [
+		"public transport",
+		"public",
+		"transport",
+		"transit",
+		"metro",
+		"map",
+		"graph",
+		"svg"
+	],
+	"author": "Julius Tens <mail@juliustens.eu>",
+	"contributors": [
+		"Jannis R <mail@jannisr.de>"
+	],
+	"homepage": "https://github.com/juliuste/svg-transit-map",
+	"repository": "juliuste/svg-transit-map",
+	"bugs": "https://github.com/juliuste/svg-transit-map/issues",
+	"main": "index.js",
+	"files": [
+		"cli.js",
+		"index.js",
+		"lib"
+	],
+	"dependencies": {
+		"d3-shape": "^1.2.0",
+		"get-stdin": "^6.0.0",
+		"lodash.sum": "^4.0.2",
+		"lodash.uniqby": "^4.7.0",
+		"mri": "^1.1.0",
+		"vec2": "^1.6.0",
+		"virtual-dom": "^2.1.1",
+		"virtual-dom-stringify": "^3.0.1"
+	},
+	"devDependencies": {},
+	"scripts": {},
+	"engines": {
+		"node": ">=8"
+	},
+	"license": "ISC"
+}
