@@ -2,10 +2,11 @@
 
 Draw an SVG transit map for a given transport network graph with position information. Consumes data in the [JSON Graph Format](http://jsongraphformat.info), see [the usage section](#usage).
 
+**This package only renders a given network as SVG. For automatic metro map drawing, see [`transit-map`](https://github.com/juliuste/transit-map).**
+
 Code forked from [derhuerst/generate-vbb-transit-map](https://github.com/derhuerst/generate-vbb-transit-map).
 
 [![npm version](https://img.shields.io/npm/v/svg-transit-map.svg)](https://www.npmjs.com/package/svg-transit-map)
-[![dependency status](https://img.shields.io/david/juliuste/svg-transit-map.svg)](https://david-dm.org/juliuste/svg-transit-map)
 [![license](https://img.shields.io/github/license/juliuste/svg-transit-map.svg?style=flat)](license)
 [![chat on gitter](https://badges.gitter.im/juliuste.svg)](https://gitter.im/juliuste)
 
