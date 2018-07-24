@@ -18,7 +18,7 @@ npm install -g svg-transit-map
 
 ## Usage
 
-From the command line:
+### CLI
 
 ```shell
 Usage:
@@ -66,6 +66,10 @@ Where `graph.json` containts a graph object with three attributes:
     ]
 }
 ```
+
+### As a library
+
+The module can be used as a JS library, documentation for this will follow.
 
 ## Example
 
