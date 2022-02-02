@@ -41,7 +41,7 @@
 	"devDependencies": {},
 	"scripts": {},
 	"engines": {
-		"node": ">=8"
+		"node": ">=16"
 	},
 	"license": "ISC"
 }

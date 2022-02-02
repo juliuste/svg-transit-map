@@ -7,8 +7,8 @@ Draw an SVG transit map for a given transport network graph with position inform
 Code forked from [derhuerst/generate-vbb-transit-map](https://github.com/derhuerst/generate-vbb-transit-map).
 
 [![npm version](https://img.shields.io/npm/v/svg-transit-map.svg)](https://www.npmjs.com/package/svg-transit-map)
-[![license](https://img.shields.io/github/license/juliuste/svg-transit-map.svg?style=flat)](license)
-[![chat on gitter](https://badges.gitter.im/juliuste.svg)](https://gitter.im/juliuste)
+[![License](https://img.shields.io/github/license/juliuste/svg-transit-map.svg?style=flat)](license)
+[![Contact me](https://img.shields.io/badge/contact-email-turquoise)](mailto:mail@juliustens.eu)
 
 ## Installation
 
@@ -85,4 +85,4 @@ We get the following output
 
 ## Contributing
 
-If you found a bug, want to propose a feature or feel the urge to complain about your life, feel free to visit [the issues page](https://github.com/juliuste/svg-transit-map/issues).
+If you found a bug or want to propose a feature, feel free to visit [the issues page](https://github.com/juliuste/svg-transit-map/issues).
