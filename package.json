@@ -1,7 +1,7 @@
 {
 	"name": "svg-transit-map",
 	"description": "Draw an SVG transit map for a given transport network graph with position information.",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"keywords": [
 		"public transport",
 		"public",
