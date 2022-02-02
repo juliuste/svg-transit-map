@@ -29,17 +29,29 @@
 		"svg-transit-map": "./cli.js"
 	},
 	"dependencies": {
-		"d3-shape": "^1.2.0",
 		"get-stdin": "^6.0.0",
 		"lodash.sum": "^4.0.2",
 		"lodash.uniqby": "^4.7.0",
-		"mri": "^1.1.0",
-		"vec2": "^1.6.0",
+		"mri": "^1.2.0",
+		"vec2": "^1.6.1",
 		"virtual-dom": "^2.1.1",
 		"virtual-dom-stringify": "^3.0.1"
 	},
-	"devDependencies": {},
-	"scripts": {},
+	"devDependencies": {
+		"depcheck": "^1.4.3",
+		"eslint": "^7.32.0",
+		"eslint-config-standard": "^16.0.3",
+		"eslint-plugin-import": "^2.25.4",
+		"eslint-plugin-node": "^11.1.0",
+		"eslint-plugin-promise": "^5.2.0"
+	},
+	"scripts": {
+		"prepublishOnly": "npm test",
+		"test": "npm run lint && npm run check-deps",
+		"check-deps": "depcheck",
+		"lint": "eslint index.js cli.js lib",
+		"fix": "npm run lint -- --fix"
+	},
 	"engines": {
 		"node": ">=16"
 	},

@@ -9,7 +9,7 @@ const pkg = require('./package.json')
 const generate = require('.')
 
 const argv = mri(process.argv.slice(2), {
-	boolean: ['help', 'h', 'version', 'v', 'invert-y', 'y']
+	boolean: ['help', 'h', 'version', 'v', 'invert-y', 'y'],
 })
 
 if (argv.help || argv.h) {
@@ -47,5 +47,5 @@ const main = async () => {
 }
 
 main()
-.then(svg => {process.stdout.write(toString(svg))})
-.catch(showError)
+	.then(svg => { process.stdout.write(toString(svg)) })
+	.catch(showError)
